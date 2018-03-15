@@ -1,0 +1,37 @@
+<style>
+    .out{
+        padding-top: 50px;
+    }
+    .p404{
+        font-size:100px;
+        line-height:100px;
+        font-weight: bold;
+        margin-bottom: 100px;
+    }
+    .home{
+        text-decoration: underline;
+        color:#777;
+        font-size:30px;
+        margin: 50px 8px;
+        cursor: pointer;
+    }
+    .home:hover{
+        color:#444;
+    }
+</style>
+<div class="p404">404</div>
+<div class='sub'>
+    您所访问的页面不存在
+</div>
+<div class='sub home' jon='home'>
+    返回主页
+</div>
+<script>
+    new Jet({
+        func:{
+            home:function(){
+                Jet.router.route('/');
+            }
+        }
+    })
+</script>
