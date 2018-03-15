@@ -1,6 +1,4 @@
-Jet.lang.use(['cn','en']);
-new Jet({
-})
+
 Jet.router.use({
   history:false,
   base:'/jet-demo',
