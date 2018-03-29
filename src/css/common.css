@@ -1,4 +1,14 @@
+#bgCover {
+    z-index: -1;
+    background-color: rgba(230, 230, 235, 0.4);
+}
 
+#bgCanvas, #bgCover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
 .out{
   height:500px;
 }
@@ -37,3 +47,26 @@
 a{
   color:#777;
 }
+
+@media screen and (max-width: 620px) {
+  .out{
+    height:400px;
+  }
+  .main{
+    font-size: 28px;
+  }
+  .sub{
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .navi{
+    margin-top:10px;
+  }
+  .navi span{
+    font-size: 20px;
+  }
+  .bottom{
+    font-size: 15px;
+  }
+}
+
