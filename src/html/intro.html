@@ -2,6 +2,29 @@
     .logo{
         margin-bottom:10px; 
         width:200px;
+        animation: rotateY 20s infinite linear;
+        -moz-animation: rotateY 20s infinite linear;	/* Firefox */
+        -webkit-animation: rotateY 20s infinite linear;	/* Safari 和 Chrome */
+        -o-animation: rotateY 20s infinite linear;
+    }
+    @keyframes rotateY{
+        from {transform: perspective(600px) rotateY(0deg);}
+        to {transform: perspective(600px) rotateY(360deg);}
+    }
+
+    @-moz-keyframes rotateY{
+        from {-moz-transform: perspective(600px) rotateY(0deg);}
+        to {-moz-transform: perspective(600px) rotateY(360deg);}
+    }
+
+    @-webkit-keyframes rotateY{
+        from {-webkit-transform: perspective(600px) rotateY(0deg);}
+        to {-webkit-transform: perspective(600px) rotateY(360deg);}
+    }
+
+    @-o-keyframes rotateY{
+        from {-o-transform: perspective(600px) rotateY(0deg);}
+        to {-o-transform: perspective(600px) rotateY(360deg);}
     }
     @media screen and (max-width: 620px) {
         .logo{
@@ -16,13 +39,13 @@
 <div class='sub' j='message'>
 </div> 
 <div class='main'>
-Jet--前端轻量级JS框架
+    Jet--前端轻量级JS框架
 </div> 
 <div class='sub'>
-便于使用 易于理解
+    便于使用 易于理解
 </div> 
 <div class='sub'>
-双向绑定 数据驱动
+    双向绑定 数据驱动
 </div> 
 <script>
 new Jet({
