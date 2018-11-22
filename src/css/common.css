@@ -13,7 +13,7 @@
   height:500px;
 }
 .main{
-    font-size: 50px;
+    font-size: 43px;
     line-height: 50px;
     font-weight: bold;
     margin-bottom:35px;
@@ -46,6 +46,10 @@
 }
 a{
   color:#777;
+}
+body{
+  text-align: center;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 620px) {
