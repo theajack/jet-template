@@ -7,7 +7,7 @@
     "compressHtml": true,
     "compressCss": true,
     "compressJs": true,
-    "buildJsWithBabel": true
+    "buildJsWithBabel": false
   },
   "scripts": {
    "dev": "lite-server"
