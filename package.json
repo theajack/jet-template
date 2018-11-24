@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "{{description}}",
   "main": "index.js",
+  "jetConfig": {
+    "compressHtml": true,
+    "compressCss": true,
+    "compressJs": true,
+    "buildJsWithBabel": true
+  },
   "scripts": {
    "dev": "lite-server"
   },
