@@ -3,7 +3,7 @@
   www.theajack.com
 **/
 var $J=Jet.$;
-Jet.$define('BG',function(){
+Jet.define('BG',function(){
   (function () {
     var canvas = $J.ct("canvas#bgCanvas");
     var _w=$J.width();

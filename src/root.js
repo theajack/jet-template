@@ -1,7 +1,7 @@
 
 new Jet({
   beforemount:function(){
-    Jet.$import('@bg',function(mod){
+    Jet.import('@bg',function(mod){
       //do something
     })
   },

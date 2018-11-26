@@ -1,5 +1,5 @@
 
-Jet.$use(
+Jet.use(
     'render-time',
     'router', 
     'res', 
