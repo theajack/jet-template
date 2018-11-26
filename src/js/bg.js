@@ -149,7 +149,7 @@ Jet.define('BG',function(){
         }
     }
   })();
-  Jet.$export({
+  Jet.export({
     
   })
 })
