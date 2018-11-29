@@ -6,7 +6,12 @@ new Jet({
     })
   },
   static:{
-    boxHeight:555
+    boxHeight:function(){
+      if(Jet.$.width()<600){
+        return 435
+      }
+      return 555
+    }
   },
   data:{
     pTop:function(){

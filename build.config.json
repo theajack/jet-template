@@ -7,6 +7,8 @@
     "compressHtml": true,
     "compressCss": true,
     "compressJs": true,
-    "buildJsWithBabel": false
+    "buildJsWithBabel": false,
+    "buildCssWithLess": false,
+    "commonLess":false
   }
 }
