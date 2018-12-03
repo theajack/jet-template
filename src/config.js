@@ -5,8 +5,7 @@ Jet.use(
     'res', 
     'module', 
     'tool',
-    'babel',
-    'less',
+    //'babel','less',
     //'css-config', 'valid','lang', jui
     function(){
         // Jet.lang.use(['cn','en']);
